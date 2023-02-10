@@ -6,7 +6,6 @@ const main = async () => {
 
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
-  console.log("🚀 Provider set...");
 
   const program = anchor.workspace.Myepicproject;
   const baseAccount = anchor.web3.Keypair.generate();
